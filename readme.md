@@ -14,7 +14,7 @@
 <CustomPopover
   header="Header"
   body="body">
-    Alguma coisa aqui dentro
+    Something
 </CustomPopover>
 ```
 
@@ -44,25 +44,11 @@
 # Helpers
 
 ### convertFirebaseTimestampToString
-### convertUrlToLink
-### copyToClipboard
-### currencies
-### currencyFormatter
 ### detectUrlInString
-### formatBytes
-### formatNumberToCurrency
 ### generateGoogleCalendarLink
 ### generateRandomNumber
 ### generateRandomString
-### getCurrencyDetails
 ### hideEmail
-### isCPFValid
-
-```typescript
-isCPFValid("01234567890"); // true
-isCPFValid("12345"); // false
-```
-
 ### isDOB
 ### isValidEmail
 
@@ -87,9 +73,7 @@ const phone: any = "+1 (805) 123-456";
 onlyNumbers(phone); // 1805123456
 ```
 
-### openWhatsappChat
 ### removeDuplicatesFromArray
-### shareToWhatsapp
 ### sleep
 ### slugifyString
 

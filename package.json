@@ -1,22 +1,16 @@
 {
-  "name": "@moreirapontocom/npmhelpers",
+  "name": "@aptitude/aptitudehelpers",
   "version": "1.2.122",
   "description": "",
   "main": "build/index",
   "types": "build/index",
   "scripts": {
     "build": "npm version patch && tsc && node .",
-    "build-local": "tsc && node .",
-    "deploy": "npm publish --access=public"
-  },
-  "author": {
-    "name": "Lucas Moreira de Souza",
-    "email": "moreirapontocom@gmail.com",
-    "url": "https://lucasmoreira.app"
+    "build-local": "tsc && node ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moreirapontocom/npmhelpers.git"
+    "url": "https://github.com/moreirapontocom/aptitudehelpers.git"
   },
   "license": "ISC",
   "devDependencies": {
