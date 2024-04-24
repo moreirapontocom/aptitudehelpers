@@ -6,7 +6,7 @@
   "types": "build/index",
   "scripts": {
     "build": "npm version patch && tsc && node .",
-    "build-local": "tsc && node ."
+    "build-local": "tsc"
   },
   "repository": {
     "type": "git",
