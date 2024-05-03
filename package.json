@@ -1,12 +1,12 @@
 {
   "name": "@aptitude/aptitudehelpers",
-  "version": "1.2.126",
+  "version": "1.2.127",
   "description": "",
   "main": "build/index",
   "types": "build/index",
   "scripts": {
     "build": "npm version patch && tsc && node .",
-    "build-local": "tsc"
+    "build-local": "./npm_builder.sh"
   },
   "repository": {
     "type": "git",
