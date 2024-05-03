@@ -1,4 +1,5 @@
 export { default as Alert } from "./components/Alert/Alert.component";
+export { default as ColumnsMatcher } from "./components/ColumnsMatcher/ColumnsMatcher.component";
 export { default as Confirm } from "./components/Confirm/Confirm.component";
 export { default as DownloadXlsx } from "./components/DownloadXlsx/DownloadXlsx.component";
 export { default as buildXlsx } from "./components/DownloadXlsx/BuildXlsx.component";

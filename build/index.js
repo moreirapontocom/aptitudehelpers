@@ -3,10 +3,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.truncateString = exports.slugifyString = exports.sleep = exports.removeDuplicatesFromArray = exports.onlyNumbers = exports.isValidUrl = exports.isValidEmail = exports.isDOB = exports.hideEmail = exports.generateRandomString = exports.generateRandomNumber = exports.generateGoogleCalendarLink = exports.detectUrlInString = exports.convertFirebaseTimestampToString = exports.ConfirmProvider = exports.ConfirmContext = exports.UserProvider = exports.UserContext = exports.AlertProvider = exports.AlertContext = exports.Upload = exports.TextWithTooltip = exports.Separator = exports.CustomPopover = exports.CustomModal = exports.Loading = exports.Expander = exports.buildXlsx = exports.DownloadXlsx = exports.Confirm = exports.Alert = void 0;
+exports.truncateString = exports.slugifyString = exports.sleep = exports.removeDuplicatesFromArray = exports.onlyNumbers = exports.isValidUrl = exports.isValidEmail = exports.isDOB = exports.hideEmail = exports.generateRandomString = exports.generateRandomNumber = exports.generateGoogleCalendarLink = exports.detectUrlInString = exports.convertFirebaseTimestampToString = exports.ConfirmProvider = exports.ConfirmContext = exports.UserProvider = exports.UserContext = exports.AlertProvider = exports.AlertContext = exports.Upload = exports.TextWithTooltip = exports.Separator = exports.CustomPopover = exports.CustomModal = exports.Loading = exports.Expander = exports.buildXlsx = exports.DownloadXlsx = exports.Confirm = exports.ColumnsMatcher = exports.Alert = void 0;
 // Components
 var Alert_component_1 = require("./components/Alert/Alert.component");
 Object.defineProperty(exports, "Alert", { enumerable: true, get: function () { return __importDefault(Alert_component_1).default; } });
+var ColumnsMatcher_component_1 = require("./components/ColumnsMatcher/ColumnsMatcher.component");
+Object.defineProperty(exports, "ColumnsMatcher", { enumerable: true, get: function () { return __importDefault(ColumnsMatcher_component_1).default; } });
 var Confirm_component_1 = require("./components/Confirm/Confirm.component");
 Object.defineProperty(exports, "Confirm", { enumerable: true, get: function () { return __importDefault(Confirm_component_1).default; } });
 var DownloadXlsx_component_1 = require("./components/DownloadXlsx/DownloadXlsx.component");
