@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.truncateString = exports.slugifyString = exports.sleep = exports.removeDuplicatesFromArray = exports.onlyNumbers = exports.isValidUrl = exports.isValidEmail = exports.isDOB = exports.hideEmail = exports.generateRandomString = exports.generateRandomNumber = exports.generateGoogleCalendarLink = exports.detectUrlInString = exports.convertFirebaseTimestampToString = exports.ConfirmProvider = exports.ConfirmContext = exports.UserProvider = exports.UserContext = exports.AlertProvider = exports.AlertContext = exports.Upload = exports.TextWithTooltip = exports.Separator = exports.CustomPopover = exports.CustomModal = exports.Loading = exports.Expander = exports.buildXlsx = exports.DownloadXlsx = exports.Confirm = exports.ColumnsMatcher = exports.Alert = void 0;
+exports.truncateString = exports.slugifyString = exports.sleep = exports.removeDuplicatesFromArray = exports.parseCSV = exports.onlyNumbers = exports.isValidUrl = exports.isValidEmail = exports.isDOB = exports.hideEmail = exports.generateRandomString = exports.generateRandomNumber = exports.generateGoogleCalendarLink = exports.detectUrlInString = exports.convertFirebaseTimestampToString = exports.ConfirmProvider = exports.ConfirmContext = exports.UserProvider = exports.UserContext = exports.AlertProvider = exports.AlertContext = exports.Upload = exports.TextWithTooltip = exports.Separator = exports.CustomPopover = exports.CustomModal = exports.Loading = exports.Expander = exports.buildXlsx = exports.DownloadXlsx = exports.Confirm = exports.ColumnsMatcher = exports.Alert = void 0;
 // Components
 var Alert_component_1 = require("./components/Alert/Alert.component");
 Object.defineProperty(exports, "Alert", { enumerable: true, get: function () { return __importDefault(Alert_component_1).default; } });
@@ -63,6 +63,8 @@ var isValidUrl_1 = require("./helpers/isValidUrl");
 Object.defineProperty(exports, "isValidUrl", { enumerable: true, get: function () { return __importDefault(isValidUrl_1).default; } });
 var onlyNumbers_1 = require("./helpers/onlyNumbers");
 Object.defineProperty(exports, "onlyNumbers", { enumerable: true, get: function () { return __importDefault(onlyNumbers_1).default; } });
+var parseCSV_1 = require("./helpers/parseCSV");
+Object.defineProperty(exports, "parseCSV", { enumerable: true, get: function () { return __importDefault(parseCSV_1).default; } });
 var removeDuplicatesFromArray_1 = require("./helpers/removeDuplicatesFromArray");
 Object.defineProperty(exports, "removeDuplicatesFromArray", { enumerable: true, get: function () { return __importDefault(removeDuplicatesFromArray_1).default; } });
 var sleep_1 = require("./helpers/sleep");
