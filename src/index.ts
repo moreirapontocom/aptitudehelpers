@@ -31,6 +31,7 @@ export { default as isDOB } from "./helpers/isDOB";
 export { default as isValidEmail } from "./helpers/isValidEmail";
 export { default as isValidUrl } from "./helpers/isValidUrl";
 export { default as onlyNumbers } from "./helpers/onlyNumbers";
+export { default as parseCSV } from "./helpers/parseCSV";
 export { default as removeDuplicatesFromArray } from "./helpers/removeDuplicatesFromArray";
 export { default as sleep } from "./helpers/sleep";
 export { default as slugifyString } from "./helpers/slugifyString";
